@@ -21,4 +21,4 @@ end
 
 client.user_timeline
   .reject { |tweet| tweet.created_at.within_a_week? }
-  .each   { |tweet| client.status_destroy(tweet.id) }
+  .each   { |tweet| client.destroy_status(tweet.id) }
