@@ -26,6 +26,6 @@ stats = admob.stats(ids, :yesterday)
 admob.logout
 
 # Tweet
-yesterday = (Time.now - 24 * 60 * 60).strftime('%m月%d日')
+yesterday = (Date.today - 1).strftime('%m月%d日')
 revenue   = sprintf("%.2f", stats.revenue)
 twitter.update("#{yesterday}のAdmobの収益は $#{revenue} でした！" )
