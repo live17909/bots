@@ -1,0 +1,57 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    activesupport (4.0.2)
+      i18n (~> 0.6, >= 0.6.4)
+      minitest (~> 4.2)
+      multi_json (~> 1.3)
+      thread_safe (~> 0.1)
+      tzinfo (~> 0.3.37)
+    addressable (2.3.5)
+    admob-api (0.0.1)
+      hashie
+      httpclient
+      quarter_time
+    atomic (1.1.14)
+    buftok (0.2.0)
+    descendants_tracker (0.0.3)
+    equalizer (0.0.8)
+    faraday (0.8.8)
+      multipart-post (~> 1.2.0)
+    hashie (2.0.5)
+    http (0.5.0)
+      http_parser.rb
+    http_parser.rb (0.5.3)
+    httpclient (2.3.4.1)
+    i18n (0.6.9)
+    json (1.8.1)
+    memoizable (0.2.0)
+      thread_safe (~> 0.1.3)
+    minitest (4.7.5)
+    multi_json (1.8.2)
+    multipart-post (1.2.0)
+    quarter_time (1.1.0)
+      activesupport (>= 2.3.5)
+      i18n
+    simple_oauth (0.2.0)
+    thread_safe (0.1.3)
+      atomic
+    twitter (5.1.1)
+      addressable (~> 2.3)
+      buftok (~> 0.2.0)
+      descendants_tracker (~> 0.0.1)
+      equalizer (~> 0.0.7)
+      faraday (>= 0.8, < 0.10)
+      http (~> 0.5.0)
+      http_parser.rb (~> 0.5.0)
+      json (~> 1.8)
+      memoizable (~> 0.2.0)
+      simple_oauth (~> 0.2.0)
+    tzinfo (0.3.38)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  admob-api
+  twitter
